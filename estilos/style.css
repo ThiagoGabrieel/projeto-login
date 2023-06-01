@@ -10,8 +10,8 @@ lilas: #5f2c82 */
     box-sizing: border-box;
 }
 html, body{
-    height: 100vh;
     width: 100vw;
+
 }
 body{
     background-image: linear-gradient(to bottom , #2b2e5ee5,#a05cc0,#df9aa6);
@@ -29,12 +29,13 @@ section.login{
     overflow: hidden;
     background-color: white;
     width: 270px;
-    height: 550px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
 
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
+    position: fixed;
 }
 section.login div.imagem{
     display: block;
