@@ -15,16 +15,28 @@
             </div>
             <div class="formi">
                 <H1>Login</H1>
-                <form action="login.php" method="post">
-                <p>
-                    <input type="email" name="email" id="iemail" autocomplete="email">
-                </p>
-                <p>
-                    <input type="password" name="senha" id="isenha" required min="8" max="10" autocomplete="current-password">
-                </p>
+                <form action="login.php" method="post" autocomplete="on
+                ">
+                <div class="campo">
+                    <span class="icon"><ion-icon  name="person"></ion-icon></span>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required maxlength="30px" placeholder="Digite seu Email">
+                    <label for="iemail">Login:</label>
+                </div>
+                <div class="campo">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="senha" id="isenha" required min="8" max="10" autocomplete="current-password" placeholder="Digite sua Senha">
+                    <label for="isenha">Senha:</label>
+                </div>
+                    <input type="submit" value="Login">
+                    <a href="esqueci.html" class="botao">Esqueci a senha <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    </a>
                 </form>
             </div>
         </section>
     </main>
+
+<script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+
 </body>
 </html>

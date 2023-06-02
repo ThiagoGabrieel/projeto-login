@@ -29,13 +29,13 @@
     }
     section.login div.imagem{
         background-position: center center;
-        float: left;
+        float: right;
         width: 50%;
         height: 110%;
         background-size: 1200px;
     }
     section.logindiv.formi{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
